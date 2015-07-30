@@ -2,8 +2,24 @@
   margin: auto;
 }*/
 
+.game-wrapper {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 1202px;
+  height: 602px;
+}
+
+.game-background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
 canvas {
   display: block;
   margin: 0 auto;
   border: 1px black solid;
+  background: transparent;
 }
