@@ -23,3 +23,22 @@ canvas {
   border: 1px black solid;
   background: transparent;
 }
+
+.title {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.instructions {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+}
+
+.credit-link {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
