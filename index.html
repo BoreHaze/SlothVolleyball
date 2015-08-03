@@ -9,28 +9,28 @@
     <script src="./lib/net.js"></script>
   	<script src="./lib/game.js"></script>
   	<script src="./lib/gameView.js"></script>
-  	<script src="./keymaster-master/keymaster.js"></script>
+  	<script src="./lib/keymaster.js"></script>
   </head>
 
   <h1 class="title"> Sloth Volleyball</h1>
 
   <body>
-    <div class="game-wrapper">
+    <div id="game-wrapper">
       <img class='game-background' src="images/shstagewaterfall084slow1.gif">
-      <canvas id="canvas" width="1200" height="600" ></canvas>
+      <canvas id="canvas" width="1400" height="700"></canvas>
     </div>
-
-    <p class="instructions">
-      Instructions: Left player moves with WASD, Right player moves with arrow keys, first to 4 points wins!
-    </p>
 
     <p class="credit-link"> Inspired by the great Slime Volleyball </p>
     <a href="" class="credit-link">Made by Max Lewin</a>
     <a href="http://pixeljoint.com/pixelart/69875.htm" class="credit-link">Background GIF by Sohei</a>
 
     <script type "text/javascript">
-  		var ctx = document.getElementById('canvas').getContext('2d');
-  		var gameView = new SlothVolleyball.GameView(1200, 600);
+      var canv = document.getElementById('canvas');
+      var wrapper = document.getElementById('game-wrapper');
+      wrapper.scrollHeight = canv.scrollHeight;
+      wrapper.scrollWidth = canv.scrollWidth;
+  		var ctx = canv.getContext('2d');
+  		var gameView = new SlothVolleyball.GameView(canv.scrollWidth, canv.scrollHeight);
   		gameView.start(ctx);
   	</script>
   </body>

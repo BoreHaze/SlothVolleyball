@@ -2,12 +2,12 @@
   margin: auto;
 }*/
 
-.game-wrapper {
+#game-wrapper {
   display: block;
   position: relative;
   margin: 0 auto;
-  width: 1202px;
-  height: 602px;
+  width: 100%;
+  height: auto;
 }
 
 .game-background {
@@ -20,7 +20,8 @@
 canvas {
   display: block;
   margin: 0 auto;
-  border: 1px black solid;
+  width: 100%;
+  height: auto;
   background: transparent;
 }
 
