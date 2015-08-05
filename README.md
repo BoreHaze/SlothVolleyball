@@ -1,6 +1,6 @@
 ## [Sloth Volleyball!][live]
 
-A two-player, physics based, 2d "volleyball" game, implemented with the HTML5 Canvas. The live game can be found here: [http://maxfieldlewin.github.io/SlothVolleyball/][live]
+A two-player, physics based, 2d "volleyball" game, implemented with the HTML5 Canvas. The live game can be found here: [http://maxfieldlewin.com/SlothVolleyball/][live]
 
 To play, get another bored friend, coworker, employee or stranger, and gather around the keyboard! The left sloth is moved left and right with A and D, and jumps with W, while the right sloth moves left and right with the left and right arrow keys, and jumps with the up arrow key. Pressing space will pause or unpause the game, and pressing G restarts the game. Enjoy!
 
@@ -16,4 +16,4 @@ Features to look forward to in future versions include:
 - A mechanic for spiking the ball
 - More consistent and realistic physics
 
-[live]: http://maxfieldlewin.github.io/SlothVolleyball/
+[live]: http://maxfieldlewin.com/SlothVolleyball/
