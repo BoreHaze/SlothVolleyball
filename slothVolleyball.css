@@ -1,6 +1,17 @@
 /*#canvas-container {
   margin: auto;
 }*/
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 #game-wrapper {
   display: block;
@@ -25,10 +36,29 @@ canvas {
   background: transparent;
 }
 
+.group::after{
+  display: block;
+  contents: "";
+  clear: both;
+}
+
 .title {
   display: block;
   margin: auto;
-  text-align: center;
+  float: left;
+  vertical-align: center;
+  font-size: 44px;
+  margin-left: 30px;
+}
+
+.credits {
+  float: right;
+  margin-right: 30px;
+}
+
+.credits > a {
+  display: block;
+  text-align: right;
 }
 
 .instructions {
